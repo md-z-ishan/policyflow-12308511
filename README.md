@@ -1,7 +1,8 @@
 # PolicyFlow: Fault-Tolerant Insurance Issuance & Reconciliation Engine
 
 > **TrippersShield Campus Engineering Practical Assessment**  
-> Candidate: `[Your Name / Candidate ID]`  
+> Repository: `policyflow-12308511`  
+> Candidate: `Md Zishan` (ID: `12308511`)  
 > Stack: PHP 8.3+, Laravel 11, MySQL 8 / PostgreSQL (SQLite for testing), REST JSON API.
 
 ---

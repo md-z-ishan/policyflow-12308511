@@ -117,7 +117,7 @@ class PolicyIssuanceAndReconciliationTest extends TestCase
 
         $fresh = $request->fresh();
         $this->assertSame(PolicyState::ISSUED, $fresh->state);
-        $this->assertSame('POL-RECONC-777', $fresh->policy_number ?? 'POL-RECON-777');
+        $this->assertSame('POL-RECON-777', $fresh->policy_number);
         $this->assertSame('PR-RECON-777', $fresh->provider_reference);
     }
 

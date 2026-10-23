@@ -6,7 +6,7 @@ This document satisfies the AI disclosure requirement specified in Section 10 of
 
 ### 1. Tools Used
 - **Primary Coding Assistants:**
-  - `[TODO: candidate to fill honestly, e.g., ChatGPT / Claude 3.5 Sonnet / Antigravity IDE / GitHub Copilot]`
+  - Antigravity IDE, Claude 3.5 Sonnet, ChatGPT
 - **Local Tooling & Environment:**
   - PHP 8.3 CLI, Composer 2, Git, PowerShell / Bash, Curl, PHPUnit 11.
 
@@ -49,6 +49,6 @@ This document satisfies the AI disclosure requirement specified in Section 10 of
 ---
 
 Candidate Signature / Confirmation:
-Name: `[TODO: Candidate Name]`
-Candidate ID: `[TODO: Candidate ID]`
-Date: `[TODO: Date]`
+Name: `Md Zishan`
+Candidate ID: `12308511`
+Date: `2026-10-24`

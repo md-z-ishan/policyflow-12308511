@@ -6,6 +6,7 @@ use App\Enums\Destination;
 use App\Enums\MockScenario;
 use App\Enums\PlanCode;
 use App\Enums\PolicyState;
+use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
@@ -13,6 +14,13 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 class PolicyRequest extends Model
 {
     use HasFactory;
+
+    protected function premium(): Attribute
+    {
+        return Attribute::make(
+            get: fn ($value) => $value !== null ? number_format((float) $value, 2, '.', '') : null,
+        );
+    }
 
     protected $fillable = [
         'uuid',
